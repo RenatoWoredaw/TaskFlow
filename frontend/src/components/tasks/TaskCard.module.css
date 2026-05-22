@@ -1,0 +1,11 @@
+.card { background: var(--surface2); border: 1px solid var(--border); padding: 1rem; cursor: pointer; transition: border-color 0.2s, transform 0.15s; }
+.card:hover { border-color: var(--purple); transform: translateY(-1px); }
+.top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.priority { font-size: 0.7rem; }
+.due { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); }
+.title { font-size: 0.88rem; font-weight: 700; line-height: 1.3; margin-bottom: 0.4rem; }
+.desc { font-size: 0.75rem; color: var(--muted); line-height: 1.5; margin-bottom: 0.75rem; }
+.footer { display: flex; align-items: center; }
+.assignee { display: flex; align-items: center; gap: 0.4rem; font-size: 0.72rem; color: var(--muted); }
+.avatar { width: 20px; height: 20px; border-radius: 50%; background: var(--purple); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 0.6rem; font-weight: 700; }
+.unassigned { font-size: 0.72rem; color: var(--border); }

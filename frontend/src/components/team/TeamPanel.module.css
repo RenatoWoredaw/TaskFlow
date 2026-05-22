@@ -1,0 +1,21 @@
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: flex; align-items: center; justify-content: flex-end; z-index: 100; }
+.panel { background: var(--surface); border-left: 1px solid var(--border); width: 380px; height: 100%; display: flex; flex-direction: column; }
+.header { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem; border-bottom: 1px solid var(--border); }
+.header h2 { font-size: 1rem; font-weight: 800; }
+.closeBtn { background: transparent; border: none; color: var(--muted); font-size: 1rem; }
+.body { padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem; overflow-y: auto; flex: 1; }
+.addForm { display: flex; gap: 0.5rem; }
+.addForm input { flex: 1; background: var(--surface2); border: 1px solid var(--border); color: var(--white); padding: 0.65rem; font-size: 0.85rem; outline: none; }
+.addForm input:focus { border-color: var(--purple); }
+.addForm button { background: var(--purple); color: #fff; border: none; padding: 0.65rem 1.1rem; font-weight: 700; font-size: 0.82rem; }
+.error { color: #fca5a5; font-size: 0.8rem; }
+.success { color: var(--success); font-size: 0.8rem; }
+.memberList { display: flex; flex-direction: column; gap: 0.5rem; }
+.member { display: flex; align-items: center; gap: 0.75rem; padding: 0.85rem; background: var(--surface2); border: 1px solid var(--border); }
+.memberAvatar { width: 34px; height: 34px; border-radius: 50%; background: var(--purple); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
+.memberInfo { flex: 1; display: flex; flex-direction: column; }
+.memberName { font-size: 0.85rem; font-weight: 700; }
+.memberEmail { font-size: 0.72rem; color: var(--muted); }
+.role { font-size: 0.65rem; color: var(--purple-glow); padding: 0.2rem 0.5rem; background: rgba(124,58,237,0.1); border: 1px solid rgba(124,58,237,0.2); }
+.removeBtn { background: transparent; border: none; color: var(--muted); }
+.removeBtn:hover { color: var(--danger); }
