@@ -23,7 +23,7 @@ cd backend
 copy .env.example .env
 ```
 Open `.env` and fill in:
-- `DB_PASSWORD` — your MySQL root password
+- `DB_PASSWORD` — MySQL root password
 - `JWT_SECRET` — any long random string
 - `SESSION_SECRET` — any long random string
 - `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` — from Google Cloud Console (optional, skip if not using OAuth)
@@ -34,7 +34,6 @@ cd backend
 npm install
 npm run dev
 ```
-Backend runs on http://localhost:5000
 
 ### 4. Install & Run Frontend
 Open a NEW terminal window:
@@ -60,7 +59,7 @@ Frontend runs on http://localhost:3000
 - Add/remove team members by email
 - Live notifications when assigned to a task
 
-## Google OAuth Setup (Optional)
+## Google OAuth Setup
 1. Go to https://console.cloud.google.com
 2. Create a new project
 3. Enable Google+ API
